@@ -1,0 +1,41 @@
+import {
+      ArrowLeft,
+      Check,
+      ChevronDown,
+      ChevronUp,
+      Copy,
+      Github,
+      Loader2,
+      Moon,
+      MoreVertical,
+      Palette,
+      Plus,
+      Save,
+      Settings,
+      Sun,
+      Trash,
+      X,
+    } from 'lucide-react'
+    import { ChatBubbleLeftRight } from 'lucide-react'
+    import { BoltIcon } from '@radix-ui/react-icons/dist/index.js'
+
+    export const Icons = {
+      logo: BoltIcon,
+      arrowLeft: ArrowLeft,
+      check: Check,
+      chevronDown: ChevronDown,
+      chevronUp: ChevronUp,
+      copy: Copy,
+      github: Github,
+      loader: Loader2,
+      moon: Moon,
+      moreVertical: MoreVertical,
+      palette: Palette,
+      plus: Plus,
+      save: Save,
+      settings: Settings,
+      sun: Sun,
+      trash: Trash,
+      x: X,
+      chat: ChatBubbleLeftRight,
+    }
